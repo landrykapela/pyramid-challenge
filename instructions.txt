@@ -1,0 +1,30 @@
+*****
+contacts:
+via saliimsaid@gmail.com or 0713884130 or 0768457571
+*******
+
+Note:: you can use any programming language to solve this challenge. Please include a README file with instructions on how to run the solution.
+Create a function that prints Mount Kilimanjaro using asterisks(start symbol *) , the function should accept the following parameters…
+
+Function drawMountain(MaximumCharactersPerLine, incrementFactor, midCharacter, leftMountainBorder,RightMountainBorder);
+
+
+** Constraints **
+
+MaximumCharacters <= 100
+incremenentFactor == 3
+midCharacter can either be a dash(-) or a caret(^)
+LeftMountainBorder will always be a forwardSlash
+RightMountainBorder will always be a backSlash
+
+On each line , print N number of asterisks with a mid character in the following format
+On the first line of the mountain print either asterisk or midCharacter
+On the left part of the mountain, print N/2 asterisks 
+On the right part of the mountain, print N/2 asterisks
+If N is an even number , print MidCharacter in the middle of the Mountain
+If N is an odd number, print an asterisk in the middle of the mountain 
+Middle is equal to (N/2)+1 , ignore remainders on the calculation (N/2) i.e N=7, N/2 will return 3
+
+Note: The middle of the mountain is common on all lines. 
+	Stop printing when increment factor <= 100
+	The maximum number of lines printed will be <= (100/incrementFactor)
